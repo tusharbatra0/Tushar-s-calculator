@@ -1,0 +1,111 @@
+body{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://cdn4.vectorstock.com/i/1000x1000/37/48/mathematical-education-seamless-pattern-background-vector-10003748.jpg");
+
+    
+}
+.Container{
+    /* width:500px; */
+    /* height:300px;  */
+    /* border:solid 3px black; */
+    /* display:flex; */
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    border-radius: 25px;
+    /* margin: 0;
+    padding: 0; */
+    /* padding-top:20px;
+    padding-bottom:20px; */
+    /* Created with https://www.css-gradient.com */
+background: #92D3AE;
+background: -webkit-linear-gradient(top left, #92D3AE, #AA9E9F);
+background: -moz-linear-gradient(top left, #92D3AE, #AA9E9F);
+background: linear-gradient(to bottom right, #92D3AE, #AA9E9F);
+
+}
+.div1{
+    width: 370px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: solid 2.5px black; */
+    margin:20px;
+
+}
+.div2{
+    /* width: 370px;
+    height: 100px; */
+    display: flex;
+    justify-content: space-around;
+    /* border: solid 2.5px black; */
+    margin:20px; padding: 10px;
+
+}
+.div3{
+    width: 150px;
+    height: 70px; 
+    border: solid 2.5px black;
+   
+    margin-left:120px;
+    margin-top: 40px;
+    font-size:40px;
+    text-align: center;
+    padding-top: 20px;
+    padding-right:20px ;
+    /* font-weight: bold; */
+    border-radius:5px;
+
+    /* Created with https://www.css-gradient.com */
+background: #E1E4CF;
+background: -webkit-linear-gradient(top left, #E1E4CF, #8BB3BD);
+background: -moz-linear-gradient(top left, #E1E4CF, #8BB3BD);
+background: linear-gradient(to bottom right, #E1E4CF, #8BB3BD);
+}
+.commonBtn{
+    border: solid 2px black;
+    height: 70px;
+    width: 70px;
+    font-size:38px;
+    border-radius:5px;
+    cursor: pointer;
+    color: white;
+background-color: black;
+}
+
+.inputField{
+    border: solid 2px black;
+    height: 70px;
+    width: 100px;
+    font-size:38px;
+    border-radius:5px;
+    text-align: center;
+    /* Created with https://www.css-gradient.com */
+background: #E1E4CF;
+background: -webkit-linear-gradient(top left, #E1E4CF, #8BB3BD);
+background: -moz-linear-gradient(top left, #E1E4CF, #8BB3BD);
+background: linear-gradient(to bottom right, #E1E4CF, #8BB3BD);
+    
+  
+}
+.div4{
+    display: flex;
+    justify-content: center;
+}
+.clearbtn{
+    border: solid 2px black;
+    height: 70px;
+    width: 150px;
+    font-size:20px;
+    border-radius:5px;
+    cursor: pointer;
+    margin-top: 60px;
+    color: white;
+    background-color: black;
+
+}
